@@ -143,3 +143,37 @@ header {
   letter-spacing: 5px;
   font-weight: normal;
 }
+
+/* popular item */
+.popular-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4.5rem 1.5rem 3.5rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.another-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #FFC135;
+  padding: .8rem 1.5rem .5rem;
+  text-decoration: none;
+  color: #0e0d0d;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 500;
+}
